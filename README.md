@@ -1,10 +1,38 @@
-[Dump It!](https://github.com/Kozenomenon/DumpIt/blob/bbdef60fc6726511b047bc9a0a79e9f5cfb4d16b/DumpItRepo_Icon.png)
+[Dump It!](https://github.com/Kozenomenon/DumpIt/blob/main/DumpItRepo_Icon-312.png?raw=true)
 # Dump It!
 Ark Mod that will dump all craft items as json to a url you provide. 
 
 Also includes a simple nodejs web service that can dump the post to file.
 
+## Web Svc
+Located under `/WebSvc`. 
+
+It is a barebones nodejs web service that will run on `http://localhost:5555`. 
+
+You will need to have [NodeJS](https://nodejs.org/) installed of course!
+
+Run the web svc like any node:
+_adjust path to fit where you have it_
+```
+C:\> cd Path\To\Repo\DumpIt\WebSvc
+C:\Path\To\Repo\DumpIt\WebSvc> node .\dumper.js
+```
+Then run the mod in an Ark process on same machine and it will post the dump to the svc. 
+
+The web svc will write the `dump.json` into the `WebSvc` folder.
+
+## Ark Mod
 [Steam Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2677141095)
+
+Located under `/ArkMod`.
+
+Copy the `/ArkMod/DumpIt` folder to your `/Mods` folder in Ark DevKit.
+
+You should open `/DumpIt/_1Macros/DumpIt_JsonStructArrayMacros` first & save it.
+
+Then you can open `/DumpIt/DumpItActor` BP. So your kit does not freak over the macro node...
+
+_Actor is assigned to PGD singletons array. Once running in game or PIE you can dump data using command below._
 
 ## Console Command
 ```
