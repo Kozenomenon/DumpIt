@@ -21,5 +21,6 @@ DumpItTimeout=10.0
 ```
 
 ## Example Usage
-[VS Code](https://i.gyazo.com/02f71e1a9f10a5a1fa6e8d13b08ee67f.mp4)
-[Cmd.exe](https://i.gyazo.com/04ba1dce38066fda95de0dfb89a01588.mp4)
+[Using VS Code + DevKit](https://i.gyazo.com/02f71e1a9f10a5a1fa6e8d13b08ee67f.mp4)
+
+[Using Cmd.exe + DevKit](https://i.gyazo.com/04ba1dce38066fda95de0dfb89a01588.mp4)
