@@ -1,6 +1,7 @@
-[Dump It!](https://github.com/Kozenomenon/DumpIt/blob/main/ArkMod/DumpIt/Icons/DumpIt_Icon.png?raw=true)
+[Dump It!](https://github.com/Kozenomenon/DumpIt/blob/main/ArkMod/DumpIt/Icons/DumpIt_Icon.png)
 # Dump It!
 Ark Mod that will dump all craft items as json to a url you provide. 
+
 Also includes a simple nodejs web service that can dump the post to file.
 
 [Steam Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2677141095)
